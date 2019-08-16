@@ -1,3 +1,4 @@
+
 #grad1{
   height:4000px;
   background-color:lightpink;
@@ -22,7 +23,7 @@ h3{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 20em;
+  width: 30em;
   text-decoration:underline;
 
 
@@ -31,7 +32,11 @@ h4{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width:20em;
+  width:30em;
 
 
+}
+.column {
+  float: left;
+  width: 33.33%;
 }
