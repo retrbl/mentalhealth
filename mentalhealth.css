@@ -1,24 +1,37 @@
+#grad1{
+  height:4000px;
+  background-color:lightpink;
+  background-image: linear-gradient(lightpink, violet, lightblue);
+}
 h1 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    font-style: italic;
+    font-size: 50px;
 }
 
 h2{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  font-size: 30px;
+  text-shadow: 3px 2px white;
 }
-
 h3{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 15em
+  width: 20em;
+  text-decoration:underline;
+
+
 }
 h4{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width:30em
+  width:20em;
+
+
 }
