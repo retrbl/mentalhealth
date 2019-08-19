@@ -1,7 +1,21 @@
 body {
   margin: 0;
 }
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 10px;
+  background-color: black;
+  color: pink;
+  padding: 10px;
+  border-radius: 30px;
+}
 
+#myBtn:hover {
+  background-color: #555;
+}
 /* Style the header */
 
 .navbar {
