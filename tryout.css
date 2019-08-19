@@ -729,3 +729,15 @@ input[type='submit'].button-outlinez[disabled]:hover {
   border-color: inherit;
   color: #9b4dca;
 }
+
+.text1 {
+  font-size: 2.3rem;
+}
+
+.text2 {
+  font-size: 2.0rem;
+}
+
+.text4 {
+  font-size: 1.2rem;
+}
