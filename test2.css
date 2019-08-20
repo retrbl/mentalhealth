@@ -1,5 +1,5 @@
 #grad1{
-  height:4000px;
+  height:3500px;
   background-color:lightpink;
   background-image: linear-gradient(lightpink, violet, lightblue);
 }
