@@ -6,73 +6,120 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.css">
     <link rel="stylesheet" href="mdd.css">
-    <script src="groupwork.js"> </script>
+    <link rel="stylesheet" href="navbar.css">
+    <script src="mdd.js"> </script>
 
   </head>
-  <p><img src="urban-skyscrapers-sunny-day-pink-4k2.jpg" alt="header" height = "210" width = "2048"></p>
-  <div class="navbar">
-  <a href="#home">Home</a>
-  <a href="#news">Get Involved</a>
-  </div>
-  <div class="dropdown">
-    <button class="dropbtn">Major Depressive Disorder
-      <i class="fa fa-caret-down"></i>
-    </button>
-    </div>
-    <div class="dropdown-content">
-      <a href="#">History</a>
-      <a href="#">Symptoms</a>
-      <a href="#">Causes</a>
-    </div>
-<div class="dropdown">
-  <button class="dropbtn">Eating Disorders
-    <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">History</a>
-      <a href="#">Symptoms</a>
-      <a href="#">Causes</a>
-    </div>
-  </div>
-  <div class="dropdown">
-    <button class="dropbtn">Bipolar Disorder
-      <i class="fa fa-caret-down"></i>
+   <div class="w3-top">
+    	<div class="navbar">
+    	<a style="float:left" class="w3-bar-item w3-button" href="#home">Home</a>
+      
+      <a style="float:right" class="w3-bar-item w3-button" href="#faqs">FAQs</a>
+        
+        <a style="float:right" class="w3-bar-item w3-button" href="#faqs"></a>
+        	<div class="dropdown">
+        		<button class="dropbtn" onclick="myFunction()">Find Help
+          		<i class="fa fa-caret-down"></i>
+        	</button>
+        <div class="dropdown-content" id="myDropdown">
+          <a href="#">For Yourself</a>
+          <a href="#">For Others</a>
+        </div>
+     	</div>
+
+
+        <a style="float:right" class="w3-bar-item w3-button" href="#faqs"></a>
+        	<div class="dropdown">
+       		 <button class="dropbtn" onclick="myFunction()">Anxiety Disorder
+       	   <i class="fa fa-caret-down"></i>
+       		 </button>
+       	 <div class="dropdown-content" id="myDropdown">
+         	 <a href="#section1">History</a>
+         	 <a href="#section2">Causes</a>
+         	 <a href="#section3">Symptoms</a>
+           <a href="#section4">Get Involved</a>
+       	 </div>
+      	</div>
+
+        <a style="float:right" class="w3-bar-item w3-button" href="#faqs"></a>
+        	<div class="dropdown">
+      			<button class="dropbtn" onclick="myFunction()">Schizophrenia
+        	<i class="fa fa-caret-down"></i>
+      			</button>
+      		<div class="dropdown-content" id="myDropdown">
+      		  <a href="#">History</a>
+       		 <a href="#">Causes</a>
+        		<a href="#">Symptoms</a>
+            <a href="#">Get Involved</a>
+            </div>
+            </div>
+
+        <a style="float:right" class="w3-bar-item w3-button" href="#faqs"></a>
+        	<div class="dropdown">
+              <button class="dropbtn" onclick="myFunction()">Bipolar Disorder
+                  <i class="fa fa-caret-down"></i>
+              </button>
+            <div class="dropdown-content" id="myDropdown">
+              <a href="#">History</a>
+              <a href="#">Causes</a>
+              <a href="#">Symptoms</a>
+              <a href="#">Get Involved</a>
+            </div>
+            </div>
+
+        <a style="float:right" class="w3-bar-item w3-button" href="#faqs"></a>
+        	<div class="dropdown">
+                  <button class="dropbtn" onclick="myFunction()">Eating Disorder
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+
+                <div class="dropdown-content" id="myDropdown">
+                  <a href="#">History</a>
+                  <a href="#">Causes</a>
+                  <a href="#">Symptoms</a>
+                  <a href="#">Get Involved</a>
+                </div>
+                </div>
+
+  <a style="float:right" class="w3-bar-item w3-button" href="#faqs"></a>
+        <div class="dropdown">
+      <button class="dropbtn" onclick="myFunction()">Major Depressive Disorder
+        <i class="fa fa-caret-down"></i>
       </button>
-      <div class="dropdown-content">
+      <div class="dropdown-content" id="myDropdown">
         <a href="#">History</a>
-        <a href="#">Symptoms</a>
         <a href="#">Causes</a>
-      </div>
-    </div>
-  <div class="dropdown">
-    <button class="dropbtn">Schizophrenia
-      <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="#">History</a>
         <a href="#">Symptoms</a>
-        <a href="#">Causes</a>
+        <a href="#">Get Involved</a>
       </div>
-    </div>
-  <div class="dropdown">
-    <button class="dropbtn">Anxiety Disorders
-      <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="#">History</a>
-        <a href="#">Symptoms</a>
-        <a href="#">Causes</a>
       </div>
-    </div>
-    <header>
+      </div>
+      </div>
+
+        </div>
+     </div>
+        <br><br>
+
+    <div class="w3-container">
+     <header>
       <h1 class = "text1">Anxiety Disorder<h1>
     </header>
-    <body>
-    <section>
+        
+    <div class="main" id="section1">
+      <br>
       <h3 class = "text2">History</h3>
       <h4 class = "text4"><p>To our surprise, anxiety disorders were only recognized by the American Psychiatric Association in 1980. Prior to this recognition, people who experienced anxiety disorders were often received a general diagnosis of “stress” or “nerves”. Since no one really understood this disorder, very few people received effective treatment. After the recognition in 1980, international research noticed a pattern of severe disabilities associated with anxiety disorders. Nearly all, disabilities could now be prevented with an early diagnosis or effective treatment. It was once thought that anxiety disorders and panic attacks were a “women's problems”. However, in the past recent years there has been more media prevalence of anxiety, panic attacks and anxiety disorders. Now there is less of a stigmatism surrounding anxiety disorders as many more people are interested in learning the appropriate treatment for those who suffer from anxiety disorders. Although anxiety disorders were only recognized 40 years ago, there were a number of people in history who have reported experiencing panic attacks or anxiety disorders. During those times, treatments were deemed as ineffective. Some treatments included bathing in cold water, hydropathy (applying extreme temperatures to the body), bloodletting, and health spas. As Psychoanalysis emerged, many people who suffered from anxiety disorders consulted with their therapist as treatment method. With the advent of pharmaceuticals, drugs were prescribed to those who suffer from anxiety disorders.</p></h4>
+      <br><br><br><br>
+    </div>
+      
+     <div class="main" id="section2">
+      <br><br><br><br>
       <h3 class = "text2">Causes</h3>
       <h4 class = "text4"><p>Just like any other health topic we have discussed, the causes of Anxiety Disorders aren’t fully understood. Life experiences such as a traumatic experience poses as a trigger that could lead to the development of an anxiety disorder to those who are already prone to anxiety. In some cases, anxiety could be linked to underlying health issues. In some cases, signs of anxiety could be an indicator of a medical illness. Some medical issues that could lead to an anxiety disorder are heart disease, diabetes, hyperthyroidism, drug withdrawal, respiratory disorders and chronic pain. Other factors that could lead to anxiety disorders are stress from work and school, financial and marital stress, use of illicit drugs and the lack of oxygen in high altitudes.</p></h4>
+      </div>
+
+    <div class="main" id="section3">
+      <br><br>
       <h3 class = "text2">Symptoms</h3>
       <ul class="a">
         <li><h4 class = "text4">Feeling nervous, restless or tense</h4></li>
@@ -83,12 +130,17 @@
         <li><h4 class = "text4">Trouble sleeping</h4></li>
         <li><h4 class = "text4">Avoiding things that would trigger anxiety</h4></li>
       </ul>
+      </div>
 
+     <div class="main" id="section4">
       <h3 class = "text2">Get Involved</h3>
       <ul class="a">
         <li><a href="http://theadi.org/volunteer/">The Anxiety and Depression Initiative</a></li>
         <li><a href="https://childmind.org/about-us/careers/open-positions/">Child Mind Institute</a></li>
       </ul>
-    </section>
+    </div>
+    </div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     </body>
     </html>
+
